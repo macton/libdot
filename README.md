@@ -45,6 +45,12 @@ Linux/BSD users should use their appropriate package managers to install git and
 if you swing that way. Easy-peasy.
 
 
+Install the grunt-cli package so that you will have the correct version of grunt available from any project that needs it. This should be done as a global install:
+
+```bash
+npm install -g grunt-cli
+```
+
 How to build libdot
 -------------------
 
@@ -54,22 +60,10 @@ First, clone a copy of the libdot git repo by running:
 git clone https://github.com/macton/libdot
 ```
 
-Install the grunt-cli package so that you will have the correct version of grunt available from any project that needs it. This should be done as a global install:
-
-```bash
-npm install -g grunt-cli
-```
-
 Enter the libdot directory and install the Node dependencies, this time *without* specifying a global install:
 
 ```bash
 cd libdot && npm install
-```
-
-Make sure you have `grunt` installed by testing:
-
-```bash
-grunt -version
 ```
 
 Then, to get a complete, minified version of libdot.min.js, type the following:
@@ -78,7 +72,7 @@ Then, to get a complete, minified version of libdot.min.js, type the following:
 grunt
 ```
 
-The built version of libdot will be put in the `dist/` subdirectory.
+The built, minified version of libdot will be put in the `dist/` subdirectory.
 
 
 Questions?
