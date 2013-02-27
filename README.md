@@ -1,0 +1,4 @@
+libdot
+======
+
+Chrome/Javascript utilities
