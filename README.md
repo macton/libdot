@@ -10,6 +10,7 @@ There's not much in libdot that already exists.  Not enough to justify an extern
     lib_fs.js (280 lines)                 - HTML5 filesystem wrapper.  I don't think we'll find many implementations of this, since Chrome is the only browser that implements this API so far.
     lib_message_manager.js (200 lines)    - Fairly trivial i18n message management that happens to work with Chrome's oddball message blobs.
     lib_preference_manager.js (700 lines) - A preference manager pattern I've been using for the last decade, upgraded to work with localStorage and Chrome's sync storage APIs.
+    lib_storage_chrome.js                 - Storage adaptor for lib_storage.js.
     lib_storage_local.js                  - Storage adaptor for lib_storage.js.
     lib_storage_memory.js                 - Storage adaptor for lib_storage.js.
     lib_test_manager.js (1k lines)        - A basic test manager that supports async tests and can be driven from the js console.
