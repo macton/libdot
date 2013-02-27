@@ -1,0 +1,16 @@
+{
+  "name": "libdot",
+  "version": "0.1.0",
+  "description": "Chrome/Javascript utilities",
+  "main": "libdot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-minified": "0.0.5"
+  }
+}
